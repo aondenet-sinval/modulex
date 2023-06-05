@@ -1,0 +1,23 @@
+{
+  "name": "modulex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sinval",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "request-promise": "^4.2.6"
+  },
+  "bin": {
+    "articles": "./bin/jwtx.js"
+  },
+  "preferGlobal": true
+}
